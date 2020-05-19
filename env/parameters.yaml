@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:guardianoasis/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.staging-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:guardianoasis/pipelineUser:token
+  username: cloudbees-ci-cd-staging[bot]
+prow:
+  hmacToken: vault:guardianoasis/prow:hmacToken
+segmentWriteKey: vault:guardianoasis:segmentWriteKey
